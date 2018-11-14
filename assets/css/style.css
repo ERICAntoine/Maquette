@@ -1,0 +1,204 @@
+/* BODY */
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+header
+{
+    background: url("../images/misc/grille.png") repeat;
+    padding: 15px;
+}
+
+.header
+{
+    display: flex;
+}
+
+.header_image{
+    width: 25vw;
+    padding: 40px;
+}
+
+.header_image img
+{
+    width: 200px;
+    height: 115px;
+    float: right;
+}
+
+.header_menu
+{
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+}
+
+.header ul
+{
+    list-style: none;
+    display: inline;
+
+}
+
+.header_menu_col
+{
+    margin: 20px;
+}
+
+/* BODY */ 
+
+/* IFRAME */
+
+.container_iframe
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+/* SENTENCE */
+
+.container_sentence
+{
+    text-align: center;
+    height: 120px;
+    border: 2px solid #f5f9f9;
+}
+
+.container_sentence h4
+{
+    line-height: 75px;
+    background: url("../images/misc/grille.png") repeat;
+}
+
+/* HOBBY */
+
+.container_hobby
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+.content_hobby
+{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+.golf
+{
+    border: 2px solid #e1eaea;
+    width: 20%;
+    margin-bottom: 70px;
+}
+
+.golf img
+{
+    display: block;
+}
+
+.hobby
+{
+    width: 20%;
+}
+
+.commentaires
+{
+    width: 37%;
+}
+
+.cadre
+{
+    display: grid;
+    grid-template-columns: 140px 140px 140px;
+    margin-top: 30px;
+}
+
+.img_accrobranche
+{
+    border: 2px solid #e1eaea;
+    padding: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.grid
+{
+    margin-right: 10px;
+}
+
+/* FOOTER */
+
+.container_footer
+{
+    display: flex;
+    justify-content: center;
+    background: url("../images/misc/grille.png") repeat;
+}
+
+.content_hobby
+{
+    display: flex;
+    justify-content: center;
+}
+
+.box
+{
+    width: 14%;
+}
+
+.adress
+{
+    display: inline-flex;
+}
+
+.email
+{
+    display: inline-flex;
+}
+
+.number
+{
+    display: inline-flex;
+}
+
+.contact img
+{
+    width: 31px;
+    height: 33px;
+}
+
+.adress p
+{
+    width: 50%;
+}
+
+.contact p
+{
+    margin-top: 0px;
+}
+
+.network{
+    display: flex;
+    float: right;
+}
+
+.Copyright
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.content_copyright
+{
+    width: 57%;
+}
